@@ -5,4 +5,11 @@
 // 8 -> 2, 4, 6, 8
 
 Console.WriteLine("Введите число ");
-int x = Convert.ToInt32(Console.ReadLine());
+int N = Convert.ToInt32(Console.ReadLine());
+int y = 2;
+while (y < N + 1) 
+{
+if (y%2 == 0)
+Console.WriteLine(y);
+y = y + 2;
+}
