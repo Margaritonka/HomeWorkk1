@@ -17,4 +17,4 @@ if (y > max)
 max = y;
 if (z > max)
 max = z;
-Console.WriteLine(max);
+Console.WriteLine("max = " + max);
